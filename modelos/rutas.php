@@ -8,7 +8,7 @@ class Ruta{
 
 	public function ctrRuta(){
 
-		return "http://unacommerce.herokuapp.com/";
+		return "https://unacommerce.herokuapp.com/";
 	
 	}
 
@@ -18,7 +18,7 @@ class Ruta{
 
 	public function ctrRutaServidor(){
 
-		return "http://unacommerce.herokuapp.com/backend/";
+		return "https://unacommerce.herokuapp.com/backend/";
 	
 	}
 
