@@ -81,7 +81,7 @@ class ControladorUsuarios{
 						
 						<center>
 							
-							<img style="padding:20px; width:10%" src="http://www.tutorialesatualcance.com/tienda/logo.png">
+							<img style="padding:20px; width:10%" src="https://unacommerce.herokuapp.com/backend/vistas/img/plantilla/logo.png">
 
 						</center>
 
@@ -391,6 +391,18 @@ class ControladorUsuarios{
 						$mail->CharSet = 'UTF-8';
 
 						$mail->isMail();
+						
+						$mail->Username = "grupotechnology14";
+					
+					$mail->Password = "los4decuba";
+					
+					$mail->IsSMTP(); 
+					$mail->SMTPDebug = 1; 
+					$mail->SMTPAuth = true; 
+					$mail->SMTPSecure = 'TLS'; 
+					$mail->Host = "smtp.sendgrid.net";
+					$mail->Port = 587; 
+					$mail->IsHTML(true);
 
 						$mail->setFrom('grupotechnology14@gmail.com', 'Grupo Technology');
 
@@ -1010,6 +1022,18 @@ class ControladorUsuarios{
 					$mail->CharSet = 'UTF-8';
 
 					$mail->isMail();
+						
+					$mail->Username = "grupotechnology14";
+					
+					$mail->Password = "los4decuba";
+					
+					$mail->IsSMTP(); 
+					$mail->SMTPDebug = 1; 
+					$mail->SMTPAuth = true; 
+					$mail->SMTPSecure = 'TLS'; 
+					$mail->Host = "smtp.sendgrid.net";
+					$mail->Port = 587; 
+					$mail->IsHTML(true);
 
 					$mail->setFrom('grupotechnology14@gmail.com', 'Grupo Technology');
 
