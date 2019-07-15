@@ -101,7 +101,7 @@ TABLA CARRITO DE COMPRAS
 						
 						<figure>
 							
-							<img src="https://unacommerce.herokuapp.com/backend/vistas/img/productos/cursos/curso02.jpg" class="img-thumbnail">
+							<img src="http://localhost/backend/vistas/img/productos/cursos/curso02.jpg" class="img-thumbnail">
 
 						</figure>
 
@@ -181,7 +181,7 @@ TABLA CARRITO DE COMPRAS
 						
 						<figure>
 							
-							<img src="https://unacommerce.herokuapp.com/backend/vistas/img/productos/ropa/ropa04.jpg" class="img-thumbnail">
+							<img src="http://localhost/backend/vistas/img/productos/ropa/ropa04.jpg" class="img-thumbnail">
 
 						</figure>
 

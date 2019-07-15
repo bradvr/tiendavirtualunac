@@ -90,7 +90,7 @@ HEADER
 				
 				<a href="#">
 						
-					<img src="https://unacommerce.herokuapp.com/backend/vistas/img/plantilla/logo.png" class="img-responsive">
+					<img src="http://localhost/backend/vistas/img/plantilla/logo.png" class="img-responsive">
 
 				</a>
 				

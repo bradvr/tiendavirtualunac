@@ -4,7 +4,7 @@ BANNER
 
 <figure class="banner">
 
-	<img src="https://unacommerce.herokuapp.com/backend/vistas/img/banner/default.jpg" class="img-responsive" width="100%">	
+	<img src="http://localhost/backend/vistas/img/banner/default.jpg" class="img-responsive" width="100%">	
 
 	<div class="textoBanner textoDer">
 		
