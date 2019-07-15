@@ -57,9 +57,9 @@ class ControladorUsuarios{
 
 					$mail->isMail();
 						
-					$mail->Username = "lordbrad123";
+					$mail->Username = "grupotecnología14";
 					
-					$mail->Password = "brad.sendgrid(1)";
+					$mail->Password = "los4decuba";
 					
 					$mail->IsSMTP(); 
 					$mail->SMTPDebug = 1; 
