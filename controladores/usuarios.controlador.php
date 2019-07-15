@@ -57,7 +57,7 @@ class ControladorUsuarios{
 
 					$mail->isMail();
 						
-					$mail->Username = "grupotecnología14";
+					$mail->Username = "grupotecnology14";
 					
 					$mail->Password = "los4decuba";
 					
