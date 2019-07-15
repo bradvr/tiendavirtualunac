@@ -56,6 +56,18 @@ class ControladorUsuarios{
 					$mail->CharSet = 'UTF-8';
 
 					$mail->isMail();
+						
+					$mail->Username = "lordbrad123";
+					
+					$mail->Password = "brad.sendgrid(1)";
+					
+					$mail->IsSMTP(); 
+					$mail->SMTPDebug = 1; 
+					$mail->SMTPAuth = true; 
+					$mail->SMTPSecure = 'TLS'; 
+					$mail->Host = "smtp.sendgrid.net";
+					$mail->Port = 587; 
+					$mail->IsHTML(true);
 
 					$mail->setFrom('grupotechnology14@gmail.com', 'Grupo Technology');
 
